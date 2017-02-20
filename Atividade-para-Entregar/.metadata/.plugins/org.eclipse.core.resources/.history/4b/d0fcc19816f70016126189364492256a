@@ -1,0 +1,8 @@
+package br.com.generic;
+
+public interface ICalculoJuros {
+	
+	public Double calcularJuros();
+	public Double calcularMontante();
+
+}

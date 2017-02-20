@@ -1,0 +1,48 @@
+package br.com.modelo;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.generic.ICalculoJuros;
+import br.com.generic.TipoJuros;
+
+public class Banco {
+	
+	private  TipoJuros[] tipo; 
+	
+	public void executar(TipoJuros ...juros){
+		
+		ICalculoJuros calculo;
+		
+		List<TipoJuros> listaTipo = Arrays.asList(juros);
+		for (TipoJuros tipoJuros : listaTipo) {
+			calculo = FactoryCalculo.setarTipo(tipoJuros);
+			
+			verMensagem(
+			"O Valor do Juros = "+calculo.calcularJuros()+"\n"+
+			"O Valor do Montante = " +calculo.calcularMontante());
+		}
+		
+	}
+	
+		
+	
+	public void verMensagem(String texto){
+		JOptionPane.showMessageDialog(null, texto);
+	}
+	
+	
+	public TipoJuros[] getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoJuros[] tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+	
+
+}

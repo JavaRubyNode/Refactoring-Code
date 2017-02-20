@@ -1,0 +1,19 @@
+package br.com.modelo;
+
+import br.com.generic.ICalculoJuros;
+
+public class JurosComposto implements ICalculoJuros {
+
+	@Override
+	public Double calcularJuros() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double calcularMontante() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -31,6 +31,9 @@ public class Banco {
 	
 		
 	
+	/**
+	 * @param texto
+	 */
 	public void mensagem(String texto){
 		JOptionPane.showMessageDialog(null, texto);
 	}

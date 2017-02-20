@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.modelo.JurosComposto"/>
+<fullyQualifiedTypeName name="br.com.modelo.JurosSimples"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="br.com.generic.ICalculoJuros"/>
+<fullyQualifiedTypeName name="br.com.modelo.FactoryCalculo"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="br.com.modelo.Banco"/>
+<fullyQualifiedTypeName name="br.com.generic.TipoJuros"/>
+</qualifiedTypeNameHistroy>

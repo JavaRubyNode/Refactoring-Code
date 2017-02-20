@@ -1,0 +1,26 @@
+package br.com.modelo;
+
+import javax.swing.JOptionPane;
+
+import br.com.generic.ICalculoJuros;
+import br.com.generic.TipoJuros;
+
+public class Banco {
+	
+	private  TipoJuros[] tipo; 
+	
+	
+	
+	
+	
+	
+	
+	public void verMensagem(String texto){
+		JOptionPane.showMessageDialog(null, texto);
+	}
+	
+	public String pegarValor(String texto){
+		return JOptionPane.showInputDialog(texto);
+	}
+
+}

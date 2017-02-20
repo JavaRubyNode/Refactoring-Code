@@ -1,0 +1,37 @@
+package br.com.modelo;
+
+import javax.swing.JOptionPane;
+
+import br.com.generic.ICalculoJuros;
+import br.com.generic.TipoJuros;
+
+public class FactoryCalculo {
+
+	
+	public ICalculoJuros setarTipo(TipoJuros tipo){
+		ICalculoJuros calculo;
+		
+		if(tipo.equals(TipoJuros.JS)){
+			return calculo = new JurosSimples(
+					Double.valueOf(pegarValor("Juros Simples \n"+"Digite o Capital")),
+                    Double.valueOf(pegarValor("Juros Simples \n")),
+                    Double.valueOf(pegarValor("Juros Simples \n")));
+		}else{
+			return calculo = new JurosComposto(
+					Double.valueOf(pegarValor("Juros Composto \n"+"Digite o Capital")),
+                    Double.valueOf(pegarValor("Juros Composto \n")),
+                    Double.valueOf(pegarValor("Juros Composto \n")));
+		}
+		
+		return calculo;
+	}
+	
+	
+	public void verMensagem(String texto){
+		JOptionPane.showMessageDialog(null, texto);
+	}
+	
+	public String pegarValor(String texto){
+		return JOptionPane.showInputDialog(texto);
+	}
+}
