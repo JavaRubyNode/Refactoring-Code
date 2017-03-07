@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="JavaRubyNode &lt;viniciusjavaruby@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="JavaRubyNode &lt;viniciusjavaruby@gmail.com&gt;"/>
+	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="658" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
@@ -12,6 +18,13 @@
 		</list>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="/home/vinicius/Refactoring-Code/.git">
+			<item value="false"/>
+			<item value="JavaRubyNode &lt;viniciusjavaruby@gmail.com&gt;"/>
+			<item value="arquivos do eclipse"/>
+			<item value="JavaRubyNode &lt;viniciusjavaruby@gmail.com&gt;"/>
+			<item value="cf40f0f18cbb017c10a388942c55dc14d04e8cf5"/>
+		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>

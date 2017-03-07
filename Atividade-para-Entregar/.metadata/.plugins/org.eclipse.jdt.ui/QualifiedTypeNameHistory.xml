@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.modelo.JurosComposto"/>
 <fullyQualifiedTypeName name="br.com.modelo.JurosSimples"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -13,4 +11,11 @@
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 <fullyQualifiedTypeName name="br.com.modelo.Banco"/>
 <fullyQualifiedTypeName name="br.com.generic.TipoJuros"/>
+<fullyQualifiedTypeName name="javax.lang.model.type.PrimitiveType"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.generic.Sanduiche"/>
+<fullyQualifiedTypeName name="br.com.generic.DecoretorSanduiche"/>
+<fullyQualifiedTypeName name="br.com.modelo.Catupiry"/>
+<fullyQualifiedTypeName name="br.com.modelo.CoracaoDeFrango"/>
 </qualifiedTypeNameHistroy>
