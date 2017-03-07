@@ -1,0 +1,38 @@
+package br.com.generic;
+
+public class DecoretorSanduiche extends Sanduiche{
+	
+	private Sanduiche sanduiche;
+	
+	private String nome;
+	private double preco;
+	public Sanduiche getSanduiche() {
+		return sanduiche;
+	}
+	public void setSanduiche(Sanduiche sanduiche) {
+		this.sanduiche = sanduiche;
+	}
+	public String getTipoDeCarne() {
+		return tipoDeCarne;
+	}
+	public void setTipoDeCarne(String tipoDeCarne) {
+		this.tipoDeCarne = tipoDeCarne;
+	}
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public DecoretorSanduiche(String tipoDeCarne, double preco,Sanduiche sanduiche) {
+		super(sanduiche.getTipoDeCarne(), sanduiche.getPreco());
+		this.preco = preco;
+		this.tipoDeCarne = tipoDeCarne;
+	}
+	
+	public void imprimir(){
+		mensagem(super.getTipoDeCarne()+" - "+ super.getPreco());
+		mensagem(this.tipoDeCarne+ " - "+ this.preco);
+	}
+
+}

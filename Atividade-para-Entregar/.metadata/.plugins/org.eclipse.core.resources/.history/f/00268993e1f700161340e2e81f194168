@@ -1,0 +1,45 @@
+package br.com.generic;
+
+import javax.swing.JOptionPane;
+
+public abstract class Sanduiche {
+	
+	private String tipoDeCarne;
+	private double preco;
+	
+	public String getTipoDeCarne() {
+		return tipoDeCarne;
+	}
+	public void setTipoDeCarne(String tipoDeCarne) {
+		this.tipoDeCarne = tipoDeCarne;
+	}
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public Sanduiche(String tipoDeCarne, double preco) {
+		super();
+		this.tipoDeCarne = tipoDeCarne;
+		this.preco = preco;
+	}
+	public Sanduiche() {
+		super();
+	}
+	
+	public void mensagem(String texto){
+		JOptionPane.showMessageDialog(null, texto);
+	}
+	
+	public  String pegarValor(String texto){
+		return JOptionPane.showInputDialog(texto);
+	}
+	
+	public void imprimir(){
+		mensagem(getTipoDeCarne()+" - "+ getPreco());
+	}
+	
+	
+
+}
